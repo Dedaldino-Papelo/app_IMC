@@ -8,7 +8,14 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
-        marginTop: 30
+
+    },
+
+    form: {
+       width: "100%",
+       height: "auto",
+       marginTop: 10,
+       padding: 10
     },
 
     errorMessage: {
@@ -18,12 +25,6 @@ const styles = StyleSheet.create({
       fontWeight: "bold"
     },
 
-    form: {
-       width: "100%",
-       height: "auto",
-       marginTop: 30,
-       padding: 10
-    },
 
     formLabel: {
         color: "#000",
@@ -54,6 +55,24 @@ const styles = StyleSheet.create({
      textButton: {
         fontSize: 20,
         color: "#fff"
+     },
+     exhibitionResultImc: {
+      width: "100%",
+      height: "40%",
+      marginTop: 50
+     }, 
+     listImc: {
+      marginTop: 10
+     }, 
+     resultImc: {
+      fontSize: 16,
+      color: "red",
+      height: 50,
+      width: "100%",
+      paddingRight: 20,
+     },
+     textresultImc: {
+      color: "red",
      }
   });
 

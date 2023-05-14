@@ -11,6 +11,13 @@ const styles = StyleSheet.create({
         marginTop: 30
     },
 
+    errorMessage: {
+      color: "#ff0043",
+      fontSize: 12,
+      paddingLeft: 20,
+      fontWeight: "bold"
+    },
+
     form: {
        width: "100%",
        height: "auto",
